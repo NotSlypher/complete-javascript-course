@@ -14,6 +14,8 @@ let person = "Ayush";
 let PI = 3.14;
 */
 
+/*
+
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
 
@@ -32,3 +34,13 @@ console.log(typeof year);
 year = 1211
 console.log(typeof year);
 console.log(typeof null);
+*/
+
+let age = 21;
+age = 22;
+
+const birthYear = 2002;
+
+// illegal
+// birthYear = 2003;
+// const job;
