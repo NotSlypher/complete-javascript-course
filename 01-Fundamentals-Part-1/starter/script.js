@@ -68,7 +68,7 @@ const ageWasee = 21;
 console.log(ageAyu, ageWasee);
 console.log((ageAyu + ageWasee) / 2);
 */
-
+/*
 const firstName = 'Ayush';
 const job = 'Developer';
 const birthYear = 2002;
@@ -80,3 +80,22 @@ console.log(ayush);
 console.log(`String
 with 
 multiple lines`);
+*/
+
+const age = 21;
+const firstName = `Wasee`;
+if (age >= 18) {
+    console.log(`${firstName} can start driving license!`);
+} else {
+    console.log(`${firstName} is not old enough yet!!`);
+}
+
+const birthYear = 2002;
+
+let century;
+if (birthYear >= 2000) {
+    century = 21;
+} else {
+    century = 20;
+}
+console.log(century);
