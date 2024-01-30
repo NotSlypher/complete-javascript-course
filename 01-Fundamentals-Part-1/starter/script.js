@@ -69,6 +69,8 @@ console.log(ageAyu, ageWasee);
 console.log((ageAyu + ageWasee) / 2);
 */
 /*
+//string concatination
+
 const firstName = 'Ayush';
 const job = 'Developer';
 const birthYear = 2002;
@@ -78,9 +80,12 @@ const ayush = "I'm " + firstName + ', a ' + (year - birthYear) + ' year old ' + 
 console.log(ayush);
 
 console.log(`String
-with 
+with
 multiple lines`);
 */
+
+/*
+//if else control
 
 const age = 21;
 const firstName = `Wasee`;
@@ -99,3 +104,46 @@ if (birthYear >= 2000) {
     century = 20;
 }
 console.log(century);
+*/
+
+/*
+//Type conversion and coersion
+
+const inputYear = '2002';
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 20);
+
+console.log(Number('Ayush'));
+console.log(typeof NaN);
+
+console.log(String(21), 21);
+
+// type coersion
+console.log('I am ' + 21 + ' years old');
+console.log('21' - '10' - 1);
+console.log('23' / '2');
+
+let n = '1' + 1;
+n = n - 1;
+console.log(n);
+*/
+
+//Truthy and falsy values
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('Ayush'));
+console.log(Boolean({}));
+console.log(Boolean(''));
+
+const money = 0;
+if (money) {
+    console.log("Dont spend it");
+} else {
+    console.log('You should get a job')
+}
+
+let height;
+if (height)
+    console.log('defined height');
+else
+    console.log('undefined'); 

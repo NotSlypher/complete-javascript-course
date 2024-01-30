@@ -22,3 +22,4 @@ if (population > 33) {
 } else {
     console.log(`${country}'s population is ${33 - population} below average`);
 }
+* /
