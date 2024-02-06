@@ -128,6 +128,7 @@ n = n - 1;
 console.log(n);
 */
 
+/*
 //Truthy and falsy values
 console.log(Boolean(0));
 console.log(Boolean(undefined));
@@ -146,4 +147,16 @@ let height;
 if (height)
     console.log('defined height');
 else
-    console.log('undefined'); 
+    console.log('undefined');
+*/
+
+/*
+// comparision operators
+
+const favorite = Number(prompt("Whats your favorite number!"));
+console.log(favorite);
+
+if (favorite === 22) console.log("yay 22");
+else if (favorite === 7) console.log("nice 7");
+else console.log(`why ${favorite}??? ${favorite} is bad`);
+*/
