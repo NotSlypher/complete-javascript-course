@@ -32,3 +32,22 @@ else if (numNeighbour > 1)
     console.log("more than 1 border");
 else
     console.log("No borders");
+
+switch (language) {
+    case `chinese`:
+    case `manderin`:
+        console.log(`Most number of native speakers`);
+        break;
+    case `spanish`:
+        console.log(`2nd place`);
+        break;
+    case `English`:
+        console.log(`3rd`);
+        break;
+    case `Hindi`:
+        console.log(`4th`);
+        break;
+    default:
+        console.log(`great language too`);
+        break;
+}

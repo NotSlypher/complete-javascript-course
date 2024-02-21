@@ -160,3 +160,44 @@ if (favorite === 22) console.log("yay 22");
 else if (favorite === 7) console.log("nice 7");
 else console.log(`why ${favorite}??? ${favorite} is bad`);
 */
+
+/*
+//logical operators
+
+const hasLicense = true;
+const hasGoodVision = false;
+
+const shouldDrive = hasGoodVision && hasLicense;
+
+if (shouldDrive)
+    console.log(`Sarah is able to drive`);
+else
+    console.log("someone else should drive for her");
+*/
+/*
+//switch case
+
+const day = `monday`;
+
+switch (day) {
+    case `monday`:
+        console.log('plan smth');
+        console.log('coede smth');
+    //break;
+
+    case 'tuesday':
+        console.log('prepare video');
+        break;
+    case 'wednesday':
+    case 'friday':
+        console.log("record");
+        break;
+}*/
+
+// ternary operator
+
+const age = 23;
+age >= 18 ? console.log(`I would love to drink wine`) : console.log(`I would love to drink water`);
+
+const drink = age >= 18 ? `wine` : `water`;
+console.log(drink);
