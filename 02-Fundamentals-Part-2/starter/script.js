@@ -68,7 +68,16 @@ console.log(friends);
 
 const ayush = {
     friends: friends,
-    bestFriend: "wasee"
+    bestFriend: "wasee",
+    birthYear: 1923,
+    calcAge: function () {
+        return 2038 - this.birthYear;
+    }
 };
 
 console.log(`Ayush has ${ayush.friends.length} friends, and his best friend is ${ayush.bestFriend}`);
+console.log(`${ayush.calcAge()}`)
+
+const num = [1, 3, 43];
+const num1 = [1, 3, 43];
+console.log(num1 - num);
